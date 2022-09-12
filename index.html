@@ -1,22 +1,264 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Moodino</title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" href="main.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Future Moon</title>
+	<link rel="stylesheet" href="bootstrap-5.2.0-beta1-dist/bootstrap-5.2.0-beta1-dist/css/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="bootstrap-5.2.0-beta1-dist/bootstrap-5.2.0-beta1-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="main.css">
 </head>
+
 <body>
-<div class="banner">
-  <div class="banner-text">
-    <img class="imgpfp" src="profile face.jpeg" alt="face profile">
-    <h1>I am Mohamad</h1>
-    <h3>This is my Website</h3>
-    <h5>Welcome</h5>
-  </div>
-</div>
+	<div class="container-fluid">
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#">FUTURE MOON</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNavDropdown">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="#">HOME</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#buy">BUY</a>
+						</li>
+
+
+						<li class="nav-item">
+							<a class="nav-link" onclick="scrollWin()" href="#">ROADMAPS</a>
+						</li>
+
+
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div class="sectionLight">
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="jumbotron jumbotron-fluid">
+						<div class="container">
+							<h1 class="display-3">Welcome to the future</h1>
+							<p class="lead">Beyond the Moon we Rise</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col"></div>
+				<div class="col-sm-12 col-md-6 imgCenter">
+					<img src="mainlogo.png" class="FMlogo" alt="First slide">
+				</div>
+
+				<div class="col"></div>
+			</div>
+		</div>
+		<div class="sectionDark">
+			<h1 id="buy" class="howtobuy">HOW TO BUY</h1>
+			<div class="row">
+				<div class="col-sm-12 col-md-1 offset-md-2">
+
+				</div>
+				<div class="col-sm-12 col-md-6">
+					<div class="row">
+						<div class="col-sm-12">
+							<h3 class="steps">Step 1: Purchase BNB</h3>
+							<p class="step">You can purchase BNB on Binance, Crypto.com or another exchange.</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-12 col-md-9">
+							<h3 class="steps">Step 2: Send BNB to Trust Wallet</h3>
+							<p class="step">Create a Trust wallet (can be downloaded on app store). Then send your BNB from your exchange of choice to your Trust wallet.
+							</p>
+						</div>
+						<div class="col-sm-12 col-md-9">
+							<h3 class="steps">Step 3: Swap BNB for Smart Chain </h3>
+							<p class="step">This can easily be done when viewing the BNB balance in your Trust wallet.
+							</p>
+						</div>
+						<div class="col-sm-12 col-md-9">
+							<h3 class="steps">Step 4: Swap $BNB For $Future Moon on PancakeSwap</h3>
+							<p class="step">Connect your Trust wallet to PancakeSwap, then paste our contract address into the token field to swap $BNB for $Future Moon. Always confirm the official contract address:
+							</p>
+						</div>
+
+
+						<div class="col-sm-12 col-md-3">
+							<img class="img-fluid FMlogo" src="seclogo.png" alt="">
+						</div>
+					</div>
+				</div>
+				<div class="col"></div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="coolStuffWrapper">
+						<button type="button" class="btn btn-lg coolStuffBtn" data-bs-toggle="modal" data-bs-target="#coolStuffModal">Go to the future</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--
+		<div class="sectionLight">
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="row">
+						<div class="col-sm-12 col-lg-4">
+							<img class="img-fluid imgCenter" src="skateOrDieStarterTemplate/skateOrDieStarterTemplate/assets/kickflip.jpg" alt="">
+							<div class="row">
+								<div class="col-sm-12">
+									<button type="button" class="btn btn-lg btn-danger btnCenter" data-bs-toggle="modal" data-bs-target=".kf-modal-lg">Kick Flip</button>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-12 col-lg-4">
+							<img class="img-fluid imgCenter" src="skateOrDieStarterTemplate/skateOrDieStarterTemplate/assets/360flip.jpg" alt="">
+							<div class="row">
+								<div class="col-sm-12">
+									<button type="button" class="btn btn-lg btn-danger btnCenter" data-bs-toggle="modal" data-bs-target=".ts-modal-md">360 Flip</button>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-12 col-lg-4">
+							<img class="img-fluid imgCenter" src="skateOrDieStarterTemplate/skateOrDieStarterTemplate/assets/bscrook.jpg" alt="">
+							<div class="row">
+								<div class="col-sm-12">
+									<button type="button" class="btn btn-lg btn-danger btnCenter" data-bs-toggle="modal" data-bs-target=".bscrook-modal-sm">BS Crook</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+-->
+
+		<footer class="footer bg-dark">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-sm-12 col-lg-3">
+						<div class="imgalign">
+							<img class="footerImg" src="afe.png" alt="">
+						</div>
+					</div>
+					<div class="col-sm-12 col-lg-9 socialWrapper">
+						<a href="" target=""><i class="fa fa-brands fa-telegram fa-3x" aria-hidden="true"></i></a>
+
+					</div>
+				</div>
+			</div>
+		</footer>
+
+
+
+
+
+
+
+
+
+
+		<!-- Modal -->
+		<!-- cool stuf Model-->
+		<div class="modal fade" id="coolStuffModal" tabindex="-1" aria-labelledby="coolStuffLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="contentLabel">Get Exclusive Content</h5>
+						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					</div>
+					<div class="modal-body">
+						<div class="container-fluid">
+							<div class="row">
+								<div class="col-sm-12">
+									<img class="img-fluid" src="skateOrDieStarterTemplate/skateOrDieStarterTemplate/assets/KFS_modal.png" alt="">
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-sm-12">
+									<div class="modalFormWrapper">
+										<div class="mb-3">
+											<label for="forName" class="form-label">What's your name?</label>
+											<input type="text" class="form-control" id="formName" placeholder="Name">
+										</div>
+										<div class="mb-3">
+											<label for="forEmail" class="form-label">Where should we send your cool content?</label>
+											<input type="text" class="form-control" id="formEmail" placeholder="Email">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+	<!--kickflip modal-->
+	<div class="modal fade kf-modal-lg" tabindex="-1" role="dialog">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<div class="ratio ratio-16x9">
+					<iframe src="https://www.youtube.com/embed/ilzy0viqVes" title="YouTube video" allowfullscreen></iframe>
+				</div>
+				<p>kickflips are easy. Pop, flick, catch, land. #BOOM</p>
+			</div>
+		</div>
+	</div>
+
+	<!--360 flip modal-->
+	<div class="modal fade ts-modal-md" tabindex="-1" role="dialog">
+		<div class="modal-dialog modal-md">
+			<div class="modal-content">
+				<div class="ratio ratio-16x9">
+					<iframe src="https://www.youtube.com/embed/ilzy0viqVes" title="YouTube video" allowfullscreen></iframe>
+				</div>
+				<p>360 flips are easy. Pop, scissor kick catch land.. #BOOM</p>
+			</div>
+		</div>
+	</div>
+
+
+	<!--kickflip modal-->
+	<div class="modal fade bscrook-modal-sm" tabindex="-1" role="dialog">
+		<div class="modal-dialog modal-sm">
+			<div class="modal-content">
+				<div class="ratio ratio-16x9">
+					<iframe src="https://www.youtube.com/embed/ilzy0viqVes" title="YouTube video" allowfullscreen></iframe>
+				</div>
+				<p>Backside Crooks are sick! Nollie in, nollie out! #BOOM</p>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+	<script src="bootstrap-5.2.0-beta1-dist/bootstrap-5.2.0-beta1-dist/js/bootstrap.min.js"></script>
 </body>
+
 </html>

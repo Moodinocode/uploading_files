@@ -1,42 +1,110 @@
-html, body {
-    margin: 0;
-    padding: 0;
-    font-family: Helvetica, Arial, sans-serif;
-    background: #444;
+.jumbotron {
+	padding: 2rem 1rem;
+	margin-bottom: 2rem;
+	background: none;
+	border-radius: .3rem;
+	text-align: center
+}
+.display-3 {
+	color: white;
 }
 
-h1 {
-    font-size: 60px;
+.lead {
+	color: white;
 }
 
-h3 {
-    font-size: 32px;
-    font-weight: normal;
-    text-transform: uppercase;
-    letter-spacing: 4px;
+.navbar{
+	padding-left: 2rem;
+}
+.sectionLight{
+	background-color: black;
+	padding: 2em;
+	padding-bottom: 2rem;
 }
 
-h5 {
-    font-size: 22px;
+
+.sectionDark {
+	background-color: #fdb915;
+	padding: 2rem;
 }
 
-.banner h1, .banner h3, .banner h5 {
-    margin: 0;
-    text-shadow: 2px 2px 6px #000;
-    text-align: center;
-    padding: .5rem 0;
+.coolStuffWrapper {
+	margin-top: 20px;
 }
 
-.banner {
-    color: white;
-    height: 500px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.howtobuy {
+	margin-left: 3rem;
+	margin-bottom: 2rem;
+	color: white;
 }
 
-.imgpfp {
-  display: block;
-  margin: auto;
-  border-radius: 7%
+button.coolStuffBtn {
+	background-color: red;
+	color: #ffffff;
+	display: block;
+	margin: auto;
 }
+
+h5.modal-title {
+	margin: auto;
+}
+
+.modalFormWrapper {
+	padding: 2rem;
+}
+
+
+.FMlogo {
+	border-radius: 10%;
+}
+
+.imgCenter {
+	display: block;
+	margin: auto;
+	text-align: center;
+}
+
+.btnCenter {
+	display: block;
+	margin: auto;
+	margin-top: 15px;
+	margin-bottom: 20px;
+	width: 54%;
+}
+.imgalign {
+	text-align: left;
+}
+
+.fa-facebook-square {
+	color: #3b5998;
+}
+
+.fa-google-plus-square {
+	color: #c32f10;
+}
+
+.fa-instagram {
+	color: #ffffff;
+}
+
+.footer {
+	background-color: #212529;
+	
+}
+.steps {
+	color: #161616;
+}
+
+.step {
+	color: black;
+}
+
+.fa {
+	margin: 10px;
+}
+
+
+.socialWrapper {
+	margin: auto;
+}
+
